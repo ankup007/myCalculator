@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d "{\"a\": 10, \"b\": 5, \"operator\": \"+\"}" http://localhost:5000/calculate -o response.json
